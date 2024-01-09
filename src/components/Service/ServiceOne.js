@@ -1,11 +1,11 @@
 import React from "react";
 
 const ServiceOne = ({ data, title, tagline }) => (
-  <section className="white-bg">
+  <section className="dark-bg">
     <div className="container">
       <div className="row">
         <div className="col-sm-12 text-center">
-          <h1 className="mb-0 mt-0 font-700 text-uppercase">{title}</h1>
+          <h1 className="white-color mb-0 mt-0 font-700 text-uppercase">{title}</h1>
           <h2 className="mt-10 font-200 letter-spacing-10 source-font text-uppercase">
             {tagline}
           </h2>
@@ -30,7 +30,7 @@ const ServiceOne = ({ data, title, tagline }) => (
                     href={process.env.PUBLIC_URL}
                     className="btn btn-outline btn-md remove-margin btn-square"
                   >
-                    Know more
+                    Contact Us
                   </a>
                 </p>
               </div>

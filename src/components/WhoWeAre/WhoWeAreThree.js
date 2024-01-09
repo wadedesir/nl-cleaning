@@ -11,7 +11,7 @@ const WhoWeAreThree = ({ data, title, tagline, children }) => (
           <div className="mt-30">{children}</div>
         </div>
       </div>
-      <div className="row mt-50">
+      {/* <div className="row mt-50">
         {data.map((service, i) => (
           <ReactWow animation="fadeInUp" delay={`0.${i}s`} key={service.id}>
             <div className="col-md-4 feature-box text-center">
@@ -21,7 +21,7 @@ const WhoWeAreThree = ({ data, title, tagline, children }) => (
             </div>
           </ReactWow>
         ))}
-      </div>
+      </div> */}
     </div>
   </section>
 );

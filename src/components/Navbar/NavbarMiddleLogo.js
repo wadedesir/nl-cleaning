@@ -16,7 +16,7 @@ const NavbarMiddleLogo = ({ data }) => {
     <nav
       className={
         (fixed ? "" : " navbar-transparent ") +
-        "navbar navbar-default navbar-fixed white bootsnav on no-full brand-center"
+        "navbar navbar-default navbar-fixed white bootsnav on no-full brand-center fixNav"
       }
     >
       <div className="container">

@@ -83,8 +83,15 @@ function App() {
             <Route
               exact
               path={`${process.env.PUBLIC_URL}/`}
+              component={HomeCreativeAgency}
+            />
+
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/demos`}
               component={Demos}
             />
+
             <Route
               exact
               path={`${process.env.PUBLIC_URL}/home-default`}

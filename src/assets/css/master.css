@@ -232,10 +232,11 @@ a,
 }
 .loader{
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
   position: absolute;
-  border: 4px solid #Fff;
+  /* border: 4px solid #Fff; */
+  background-color: white;
   top: 50%;
   animation: loader 2s infinite ease;
   left: 50%;
@@ -247,7 +248,7 @@ a,
   display: inline-block;
   width: 100%;
   background-color: #fff;
-  animation: loader-inner 2s infinite ease-in;
+  /* animation: alternate 2s infinite ease-in; */
 }
 
 @keyframes loader {
@@ -7397,4 +7398,14 @@ html.fp-enabled,
 
 .client-slider .slick-track {
   display: flex;
+}
+
+/* Custom */
+
+#hero-bg{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.fixNav{
+  max-width: 100vw !important;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import parse from "html-react-parser";
-import imgBg from "../../assets/images/background/parallax-bg.jpg";
+import imgBg from "../../assets/images/background/spray.jpg";
 
 const ParallaxOne = ({ title, children, btnText, btnPath }) => (
   <section

@@ -3,18 +3,18 @@
     "id": 1,
     "icon": "icon-strategy",
     "title": "Strategy",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur congue erat ac molestie."
+    "text": "What are the perfect tools to use to elevate your business? We help you find that out and put them to good use."
   },
   {
     "id": 2,
     "icon": "icon-trophy",
     "title": "Brand Identity",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur congue erat ac molestie."
+    "text": "How do you stand out? How do you win at the game you're playing? We know just the right steps to take to put you up front."
   },
   {
     "id": 3,
-    "icon": "icon-pencil",
+    "icon": "icon-laptop",
     "title": "Digital",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur congue erat ac molestie."
+    "text": "What do the people want in this modern digital age? We can show you the ins and outs in the world of Tech."
   }
 ]

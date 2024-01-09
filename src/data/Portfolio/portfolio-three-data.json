@@ -2,7 +2,7 @@
   {
     "id": 1,
     "tags": ["branding"],
-    "image": "portfolio/grid/21.jpg",
+    "image": "portfolio/wade/dua.png",
     "title": "Jassel",
     "path": "!#",
     "category": ["All", "Branding"],
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "tags": ["print", "ui-ux"],
-    "image": "portfolio/grid/22.jpg",
+    "image": "portfolio/wade/lenox.png",
     "title": "Peony Hotel",
     "path": "!#",
     "category": ["All", "Print Design", "UI/UX Design"],
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "tags": ["print", "development"],
-    "image": "portfolio/grid/23.jpg",
+    "image": "portfolio/wade/hairapy.png",
     "title": "Sumatra T-shirt",
     "path": "!#",
     "category": ["All", "Development", "Print Design"],
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "tags": ["branding"],
-    "image": "portfolio/grid/24.jpg",
+    "image": "portfolio/wade/nfrg.png",
     "title": "Fach Bureau",
     "path": "!#",
     "category": ["All", "Branding"],
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "tags": ["branding", "ui-ux"],
-    "image": "portfolio/grid/25.jpg",
+    "image": "portfolio/wade/mickeys.png",
     "title": "Scio Stationery",
     "path": "!#",
     "category": ["All", "Branding", "UI/UX Design"],
@@ -52,7 +52,7 @@
   {
     "id": 6,
     "tags": ["print", "development"],
-    "image": "portfolio/grid/26.jpg",
+    "image": "portfolio/wade/about.jpg",
     "title": "Bahushko",
     "path": "!#",
     "category": ["All", "Print Design", "Development"],

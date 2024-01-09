@@ -1,6 +1,6 @@
 import React from "react";
-import logoWhite from "../../../assets/images/logo-white.png";
-import logoBlack from "../../../assets/images/logo-black.png";
+import logoWhite from "../../../assets/duatone-logo/white-logo.png";
+import logoBlack from "../../../assets/duatone-logo/black-logo.png";
 
 const NavbarHeaderTwo = ({ type, fixed, width, handleCollapse, collapse }) => (
   <div className="navbar-header">
