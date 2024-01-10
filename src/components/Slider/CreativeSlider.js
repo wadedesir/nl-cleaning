@@ -8,7 +8,7 @@ import logo from "../../assets/duatone-logo/logo.png"
 const CreativeSlider = () => {
   const height = useWindowSize().height;
   return (
-    <section className="pt-0 pb-0 bg-video parallax-effect">
+    <section className="pt-0 pb-0 bg-video parallax-effect" id="home">
       <div id="hero-bg" className="hero-text-wrap gradient-overlay">
         <div className="hero-text ">
           <div className="container">

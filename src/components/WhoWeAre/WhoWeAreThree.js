@@ -2,7 +2,7 @@ import React from "react";
 import ReactWow from "react-wow";
 
 const WhoWeAreThree = ({ data, title, tagline, children }) => (
-  <section className="white-bg">
+  <section className="white-bg" id="about">
     <div className="container">
       <div className="row">
         <div className="col-sm-8 section-heading">

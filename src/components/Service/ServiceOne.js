@@ -1,7 +1,7 @@
 import React from "react";
 
 const ServiceOne = ({ data, title, tagline }) => (
-  <section className="dark-bg">
+  <section className="dark-bg" id="services">
     <div className="container">
       <div className="row">
         <div className="col-sm-12 text-center">

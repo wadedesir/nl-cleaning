@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import { CSSTransition } from "react-transition-group";
 import DropdownToggleItem from "./DropdownToggleItem";
 
-const DropdownItem = ({ item, title }) => {
+const DropdownItem = ({ item, title, link }) => {
   const [dropdown, setDropdown] = useState(false);
-
   const showSub = (e) => {
     e.preventDefault();
     setDropdown(!dropdown);
@@ -13,14 +12,14 @@ const DropdownItem = ({ item, title }) => {
   return (
     <li className={"dropdown " + (dropdown === true ? "on" : "")}>
       <a
-        href={process.env.PUBLIC_URL}
+        href={link}
         className="dropdown-toggle"
         data-toggle="dropdown"
-        onClick={showSub}
+      // onClick={showSub}
       >
         {title}
       </a>
-      <CSSTransition in={dropdown} timeout={300} classNames="dropdown-menu-">
+      {/* <CSSTransition in={dropdown} timeout={300} classNames="dropdown-menu-">
         <ul className="dropdown-menu single-dropdown">
           {item.map((val, i) => (
             <DropdownToggleItem
@@ -29,22 +28,22 @@ const DropdownItem = ({ item, title }) => {
               title={val.title}
               link={val.link}
             />
-            // <li key={val.id} className={"dropdown oo " + (collapse ? "on" : "")}>
-            //   <Link
-            //     className={val.subMenu ? "dropdown-toggle" : null}
-            //     data-toggle="dropdown"
-            //     to={process.env.PUBLIC_URL + val.link}
-            //     onClick={showCollapse}
-            //   >
-            //     {val.title}
-            //   </Link>
-            //   {val.subMenu ? (
-            //     <DropdownSubItem item={val.subMenu} collapse={collapse} />
-            //   ) : null}
-            // </li>
+            <li key={val.id} className={"dropdown oo " + (collapse ? "on" : "")}>
+              <Link
+                className={val.subMenu ? "dropdown-toggle" : null}
+                data-toggle="dropdown"
+                to={process.env.PUBLIC_URL + val.link}
+                onClick={showCollapse}
+              >
+                {val.title}
+              </Link>
+              {val.subMenu ? (
+                <DropdownSubItem item={val.subMenu} collapse={collapse} />
+              ) : null}
+            </li>
           ))}
         </ul>
-      </CSSTransition>
+      </CSSTransition> */}
     </li>
   );
 };

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Home",
-    "link": "/",
+    "link": "#home",
     "colsTitle": "Home Pages",
     "itemsPerCol": 5,
     "megaMenu": false,
@@ -29,5 +29,4 @@
     "megaMenu": false,
     "subMenu": []
   }
-
 ]

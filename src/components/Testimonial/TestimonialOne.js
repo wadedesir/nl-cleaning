@@ -12,7 +12,7 @@ const TestimonialOne = ({ data, title }) => {
     className: "testimonial"
   };
   return (
-    <section>
+    <section id="testimonials">
       <div className="container">
         <div className="row">
           <div className="col-sm-8 section-heading">

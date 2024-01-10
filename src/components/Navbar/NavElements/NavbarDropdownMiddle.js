@@ -29,6 +29,7 @@ const NavbarDropdownMiddle = ({ data, collapse }) => {
                     item={item.subMenu}
                     title={item.title}
                     key={item.id}
+                    link={item.link}
                   />
                 )
               )}
@@ -55,6 +56,7 @@ const NavbarDropdownMiddle = ({ data, collapse }) => {
                     item={item.subMenu}
                     title={item.title}
                     key={item.id}
+                    link={item.link}
                   />
                 )
               )}
