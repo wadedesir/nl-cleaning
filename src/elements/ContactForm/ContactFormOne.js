@@ -5,8 +5,12 @@ const ContactFormOne = ({ title }) => (
     <div className="container">
       <div className="row">
         <div className="col-sm-8 section-heading pb-0">
-          <h4 className="text-uppercase text-center">{title}</h4>
+          <h3 className="text-uppercase text-center">{title}</h3>
         </div>
+      </div>
+      <div className="" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <h4 className="mr-4"> <i className={`icon-phone font-40px dark-icon`}></i> </h4>
+        <h3 className="ml-2">: 315-450-3376</h3>
       </div>
 
       <div className="row mt-50">
