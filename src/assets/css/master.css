@@ -7409,3 +7409,7 @@ html.fp-enabled,
 .fixNav{
   max-width: 100vw !important;
 }
+
+html {
+  scroll-behavior: smooth !important;
+}
