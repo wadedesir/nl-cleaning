@@ -14,7 +14,7 @@ const NavbarDropdownMiddle = ({ data, collapse }) => {
             data-out="fadeOut"
           >
             {data
-              .slice(0, 3)
+              .slice(0, 2)
               .map((item) =>
                 item.megaMenu === true ? (
                   <DropdownMega
@@ -41,7 +41,7 @@ const NavbarDropdownMiddle = ({ data, collapse }) => {
             data-out="fadeOut"
           >
             {data
-              .slice(3, 6)
+              .slice(2, 4)
               .map((item) =>
                 item.megaMenu === true ? (
                   <DropdownMega

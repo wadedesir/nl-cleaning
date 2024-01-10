@@ -24,25 +24,10 @@
   },
   {
     "id": 4,
-    "title": "Portfolio",
-    "link": "#portfolio",
-    "megaMenu": false,
-    "subMenu": []
-  },
-  {
-    "id": 5,
     "title": "Testimonials",
     "link": "#testimonials",
     "megaMenu": false,
     "subMenu": []
-  },
-  {
-    "id": 6,
-    "title": "Contact",
-    "link": "#contact",
-    "colsTitle": "Elements",
-    "itemsPerCol": 4,
-    "megaMenu": false,
-    "subMenu": []
   }
+
 ]

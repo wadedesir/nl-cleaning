@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "image": "gallery/services1.jpg",
+    "image": "gallery/house.jpg",
     "title": "House  Cleaning",
-    "text": "We help you create a beautiful and attractive website for your brand or business."
+    "text": "We will turn your house into the home you've always imagined with our expert workforce."
   },
   {
     "id": 2,
-    "image": "gallery/services2.jpg",
+    "image": "gallery/apartment.jpg",
     "title": "Apartment Cleaning",
-    "text": "We do mobile app development in React-Native and can help bring your ideas to life."
+    "text": "Have a smaller space? We'll make it cozy and look like it never has before."
   },
   {
     "id": 3,
-    "image": "gallery/services3.jpg",
+    "image": "gallery/office.jpg",
     "title": "Office Cleaning",
-    "text": "Need someone to help keep your website up and running? We do that too. Reach out below for help."
+    "text": "Workspaces can be the most messy, but we'll organize everything so you can focus."
   },
   {
     "id": 4,
-    "image": "gallery/services4.jpg",
+    "image": "gallery/holiday.jpg",
     "title": "Holiday Cleaning",
-    "text": "Have another software engineering project in mind? Reach out below with details."
+    "text": "Getting ready to party? We can wow your guests with the cleanliness we provide."
   }
 ]
