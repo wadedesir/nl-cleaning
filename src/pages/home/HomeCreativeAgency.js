@@ -51,7 +51,7 @@ const HomeCreativeAgency = () => (
       Unleash the Power of Our Expert Cleaning Services!
     </ParallaxOne>
     {/* <PortfolioThree data={dataPortfolio} title="Our Works" backfont="Works" /> */}
-    <TestimonialOne data={dataTestimonials} title="Testimonials" />
+    {/* <TestimonialOne data={dataTestimonials} title="Testimonials" /> */}
     {/* <CounterTwo data={dataCounter} /> */}
     {/* <TeamThree
       data={dataTeam}
