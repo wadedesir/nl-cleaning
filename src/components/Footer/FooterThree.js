@@ -7,7 +7,8 @@ const FooterThree = () => (
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <ul className="social-media text-center">
+              <p className="text-center" style={{ color: 'white' }}>Copyright © 2024 NL-Cleaning</p>
+              {/* <ul className="social-media text-center">
                 <li>
                   <a
                     href={process.env.PUBLIC_URL}
@@ -48,7 +49,7 @@ const FooterThree = () => (
                     <span></span>
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>
