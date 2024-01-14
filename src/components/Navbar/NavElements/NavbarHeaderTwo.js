@@ -21,7 +21,7 @@ const NavbarHeaderTwo = ({ type, fixed, width, handleCollapse, collapse }) => (
       <a href={process.env.PUBLIC_URL} className="navbar-brand" style={{
         padding: 0,
         padding: '5px',
-        width: '100%',
+        width: '200px',
         height: '100%',
       }}>
         {!fixed && width > 1023 ? (
