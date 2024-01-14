@@ -23,7 +23,7 @@ const CreativeSlider = () => {
                 Redefining Spaces with Our Professional Cleaning Mastery!
               </h5>
               <p className="text-center mt-30">
-                <a href={process.env.PUBLIC_URL} className="btn btn-outline-white btn-md btn-default btn-animate">
+                <a href={`#contact`} className="btn btn-outline-white btn-md btn-default btn-animate">
                   <span>
                     Work with us <i className="ion-android-favorite"></i>
                   </span>
