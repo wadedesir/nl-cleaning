@@ -7413,3 +7413,11 @@ html.fp-enabled,
 html {
   scroll-behavior: smooth !important;
 }
+
+
+@media screen and (max-width: 998px) {
+  
+  .footer-three-height{
+    display: none;
+  }
+}
