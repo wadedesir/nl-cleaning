@@ -17,10 +17,14 @@ const ContactFormOne = ({ title }) => (
         <h4 className="mr-4"> <i className={`icon-phone font-40px dark-icon`}></i> </h4>
         <h3 className="ml-2">: 781-827-9720</h3>
       </div>
+      <div className="" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        {/* <h4 className="mr-4"> <i className={`icon-email font-40px dark-icon`}></i> </h4> */}
+        <h3 className="ml-2">Email: Natachaprep@gmail.com</h3>
+      </div>
 
       <div className="row mt-50">
         <div className="col-md-8 col-md-offset-2">
-          <form name="contact-form">
+          {/* <form name="contact-form">
             <div className="messages"></div>
             <div className="row">
               <div className="col-md-6 col-sm-6">
@@ -100,7 +104,7 @@ const ContactFormOne = ({ title }) => (
                 </span>
               </button>
             </div>
-          </form>
+          </form> */}
         </div>
       </div>
     </div>
