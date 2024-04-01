@@ -6,16 +6,17 @@ const ContactFormOne = ({ title }) => (
       <div className="row">
         <div className="col-sm-8 section-heading pb-0">
           <h2 className="text-uppercase text-center">{title}</h2>
+          <h3>Call or Text:</h3>
         </div>
       </div>
 
       <div className="" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <h4 className="mr-4"> <i className={`icon-phone font-40px dark-icon`}></i> </h4>
-        <h3 className="ml-2">: 315-450-3376</h3>
+        <h3 className="ml-2">: 781-827-9720</h3>
       </div>
       <div className="" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <h4 className="mr-4"> <i className={`icon-phone font-40px dark-icon`}></i> </h4>
-        <h3 className="ml-2">: 781-827-9720</h3>
+        <h3 className="ml-2">: 781-866-7100</h3>
       </div>
       <div className="" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         {/* <h4 className="mr-4"> <i className={`icon-email font-40px dark-icon`}></i> </h4> */}
