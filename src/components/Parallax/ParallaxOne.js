@@ -8,7 +8,7 @@ const ParallaxOne = ({ title, children, btnText, btnPath }) => (
     data-stellar-background-ratio="0.2"
     style={{ backgroundImage: `url(${imgBg})` }}
   >
-    <div className="gradient-overlay"></div>
+    <div className="gradient-overlay" style={{background: 'rgba(0, 0, 0, 0.6)'}}></div>
     <div className="container">
       <div className="row">
         <div className="col-md-6 text-center col-md-offset-3 white-color">

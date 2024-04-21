@@ -7,7 +7,7 @@ const FooterThree = () => (
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <p className="text-center" style={{ color: 'white' }}>Copyright © 2024 Family Pro Cleaning</p>
+              <p className="text-center" style={{ color: 'white' }}>Copyright © 2024 Natacha Pro Cleaning</p>
               {/* <ul className="social-media text-center">
                 <li>
                   <a
